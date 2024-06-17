@@ -7,6 +7,13 @@ just like any other plugin. This looks out for a specific ssid, and when found *
 It will then run the second part (stealth_worker.py) *as a service* and this is what will be running
 while you are in range of the target ssid. Once out of range, the pwnagotchi service is restarted as normal.
 
+
+![stealth_base example 1](./example1.jpg)
+
+![stealth_base example 2](./example2.jpg)
+
+
+
 ## Basic Setup
 First install the stealth_base.py as you would normally, ie, copy it to your pwnagotchi in your custom plugins location.
 For me this is:  
